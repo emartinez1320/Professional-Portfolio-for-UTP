@@ -43,6 +43,6 @@ This is a link to the webpage.
 
 [click here](file:///C:/Users/elise/Documents/AZBootcamp/projects/Professional-Portfolio-for-UTP/index.html)
 
-[Your Link text Here](file:///C:/Users/elise/Documents/AZBootcamp/projects/Professional-Portfolio-for-UTP/index.html)
+<a href="file:///C:/Users/elise/Documents/AZBootcamp/projects/Professional-Portfolio-for-UTP/index.html"
 
 https://github.com/emartinez1320/Professional-Portfolio-for-UTP/issues/1#issue-1332425140
