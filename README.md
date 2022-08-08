@@ -34,7 +34,15 @@ When you open up the webpage you will see a responsive Navbar that will take you
 When scrolling down to my portfolio you can see my "Projects" in sections, the most recent application will be the bigger then the the rest.
 Scrolling down to contact info you will see a list of random socials. <!--I did not actually include my personal information. I wasnt sure if I was suppose to.-->
 
+
+
+
+
 This is a link to the webpage. 
+
+
+
+
 [Your Link text Here](file:///C:/Users/elise/Documents/AZBootcamp/projects/Professional-Portfolio-for-UTP/index.html)
 
 https://github.com/emartinez1320/Professional-Portfolio-for-UTP/issues/1#issue-1332425140
