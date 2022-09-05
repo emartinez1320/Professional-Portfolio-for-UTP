@@ -1,0 +1,533 @@
+*{
+    margin: 7px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/*this is the title*/
+.title{
+  align-self: flex-start;
+    display: flex;
+    text-align: left;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding-left: 30px;
+    color: darkblue;
+}
+
+/*this is the start of the navigation*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 0, 0, 0.669);
+    position: sticky;
+    top: 20;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .5 ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: rgba(170, 0, 0, 0.669);
+    box-shadow: 0 0 10px white;
+    padding: 8px 30px;
+}
+a {
+    text-decoration: none;
+}
+
+/*home section*/ 
+.heading{
+    display: flex;
+    color: rgb(170, 0, 0, 0.669);
+    font-family: cursive;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    box-shadow: 5px;
+
+  }
+/*this is the about me section*/ 
+
+#About{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgba(170, 0, 0, 0.669);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: cursive;
+
+}
+.beach{
+    flex: content;
+    align-self: center;
+    justify-self: center;
+    margin-top: 15px;
+
+}
+img{
+    position: relative;
+    border: 5px solid black;
+    box-shadow: 3px;
+    border-radius: 7px;
+}
+p{
+    font-family: cursive;
+    font-weight: normal;
+    color: white;
+    padding: 20px 10px 10px 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+.container{
+
+    background-color: rgba(170, 0, 0, 0.669);
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border-radius: 40px;
+    border-color: 50px black;
+    flex: content;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+/*this is my portfolio section*/
+h2{
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(170, 0, 0, 0.669);
+    text-align: left;
+    margin: 60px 0px 0px 80px;
+}
+
+#portfolio{
+align-content: center;
+justify-content: center;
+}
+/*this is the main content box*/
+.Container{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 5px;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  box-sizing: content-box;
+  background-color: rgba(170, 0, 0, 0.669);
+  margin-bottom: 10px;
+  
+
+}
+/*this is the label for the refactoring-website*/
+#fact{
+  border: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: cursive;
+}
+
+/*these containers are within the main content box*/
+
+    /*contact me*/
+#Contact{
+    font-size: 1.5rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(170, 0, 0, 0.669);
+    text-align: center;
+    margin-top: 100px;
+    list-style: none;
+}
+
+/* footer*/
+h4{
+    font-size: 1.5rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(170, 0, 0, 0.669);
+    text-align: center;
+    margin-top: 60px;
+
+
+}
+
+.BOX{
+list-style: none;
+}
+
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: xx-small;
+      width: min-content;
+      min-height: min-content;
+      align-items: center;
+    }
+    .body {
+      width: 200px;
+      height: 200px;
+    }
+
+    .beach{
+      justify-self: self-start;
+      width: 200;
+      min-height: min-content;
+      position: relative;
+      margin-left: 75px;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+    overflow: hidden;
+  
+   }
+   .Container .b2{
+    width: 200px;
+   }
+   .refa{
+    width: 300px;
+   }
+  }
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+    }
+    .body {
+      width: 400px;
+      height: 400px;
+    }
+
+    .beach{
+      width: min-content;
+      min-height: min-content;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 500px;
+   }
+  }
+   
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+      font-size: xx-small;
+      width: min-content;
+      min-height: min-content;
+      align-items: center;
+    }
+
+    .beach{
+      min-height: min-content;
+      justify-self: self-start;
+      min-width: min-content;
+      min-height: min-content;
+      position: relative;
+      margin-left: 75px;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+    overflow: hidden;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 10px;
+    height: auto;
+   }
+  }
+   
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-device-width: 640px) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+      font-size: xx-small;
+      width: min-content;
+      min-height: min-content;
+      align-items: center;
+    }
+
+    .beach{
+      min-height: min-content;
+      justify-self: self-start;
+      min-width: min-content;
+      min-height: min-content;
+      position: relative;
+      margin-left: 75px;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+    flex-direction: column;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 10px;
+    height: auto;
+   }
+  }
+  @media screen and (max-device-width: 680px) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+      font-size: xx-small;
+      width: min-content;
+      min-height: min-content;
+      align-items: center;
+    }
+
+    .beach{
+      min-height: min-content;
+      justify-self: self-start;
+      min-width: min-content;
+      min-height: min-content;
+      position: relative;
+      margin-left: 75px;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+    flex-direction: column;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 10px;
+    height: auto;
+   }
+  }
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+    }
+    .body {
+      width: 400px;
+      height: 400px;
+    }
+
+    .beach{
+      width: min-content;
+      min-height: min-content;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 500px;
+   }
+  }
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+    }
+    .body {
+      width: 400px;
+      height: 400px;
+    }
+
+    .beach{
+      width: min-content;
+      min-height: min-content;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 500px;
+   }
+  }
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+    }
+    .body {
+      width: 400px;
+      height: 400px;
+    }
+
+    .beach{
+      width: min-content;
+      min-height: min-content;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 500px;
+   }
+  }
+  @media screen and (max-device-width: 766px) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+      font-size: xx-small;
+      width: min-content;
+      min-height: min-content;
+      align-items: center;
+    }
+
+    .beach{
+      min-height: min-content;
+      justify-self: self-start;
+      min-width: min-content;
+      min-height: min-content;
+      position: relative;
+      margin-left: 75px;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+    flex-direction: column;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 300px;
+    height: auto;
+   }
+  }
+  @media screen and (max-device-width: 676px) {
+    .html{align-content: center;}
+    
+    .navbar{
+      font-size: x-small;
+      font-size: xx-small;
+      width: min-content;
+      min-height: min-content;
+      align-items: center;
+    }
+
+    .beach{
+      min-height: min-content;
+      justify-self: self-start;
+      min-width: min-content;
+      min-height: min-content;
+      position: relative;
+      margin-left: 75px;
+    }
+   .Container{
+    align-self: center;
+    width: auto;
+    margin: 0;
+    align-content: center;
+    flex-direction: column;
+   }
+   .Container .b2{
+    width: 300px;
+   }
+   .refa{
+    width: 400px;
+    height: auto;
+   }
+   .p{
+    font-size: xx-small;
+    text-align: center;
+   }
+  }
