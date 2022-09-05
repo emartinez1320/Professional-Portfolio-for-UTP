@@ -34,7 +34,7 @@ Scrolling down to contact info you will see a list of random socials.
 
 
 # ScreenShot of webpage
-![portfolio](https://user-images.githubusercontent.com/109640836/188496305-5aadb26d-59f3-446d-b7b6-e16b1bd9da87.png)
+[portfolio](https://emartinez1320.github.io/Professional-Portfolio-for-UTP/)
 
 
 # This is a link to the webpage. 
