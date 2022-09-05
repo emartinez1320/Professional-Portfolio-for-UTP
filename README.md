@@ -2,7 +2,7 @@
 This repo is a portfolio that will include projects and will be constantly updated and improved as I continue to learn. 
 The challenge:
 
-User Story
+# User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
@@ -23,26 +23,27 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport. 
 
-The title of this project is Professional-Portfolio-for_UTP. 
+# Functionality
+I only used HTML and CSS for this webpage.
 I was assigned to make a website that would contain my portfolio for employers to view. 
 The website i created has basic information such as my name, contact information, a little about me, and more importantly a section for my portfolio. I am looking to add more and more as I continue to learn more and exciting elements and languages. This webpage will be updated constantly. 
-
-I only used HTML and CSS for this webpage. 
-
 When you open up the webpage you will see a responsive Navbar that will take you to any section you select. All Photos were Taken by friends of mine who were okay with me using their pictures. 
-
 When scrolling down to my portfolio you can see my "Projects" in sections, the most recent application will be the bigger then the the rest.
-Scrolling down to contact info you will see a list of random socials. <!--I did not actually include my personal information. I wasnt sure if I was suppose to.-->
+Scrolling down to contact info you will see a list of random socials. 
+<!--I did not actually include my personal information. I wasnt sure if I was suppose to.-->
 
 
+# ScreenShot of webpage
+![portfolio](https://user-images.githubusercontent.com/109640836/188496305-5aadb26d-59f3-446d-b7b6-e16b1bd9da87.png)
 
 
+# This is a link to the webpage. 
+[Portfolio](file:///C:/Users/elise/Documents/AZBootcamp/projects/Professional-Portfolio-for-UTP/index.html)
 
-This is a link to the webpage. 
+[Tahmid Ahmed](https://www.youtube.com/watch?v=lgeoAUvoRJU&t=253s)
 
+[Tahmid Ahmed](https://www.youtube.com/watch?v=fOSpqwM_ZtQ&t=885s)
 
-[click here](file:///C:/Users/elise/Documents/AZBootcamp/projects/Professional-Portfolio-for-UTP/index.html)
+# Articles
+[Stackoverflow](https://stackoverflow.com/search?q=how+to+add+boxes+in+html)
 
-<a href="file:///C:/Users/elise/Documents/AZBootcamp/projects/Professional-Portfolio-for-UTP/index.html"
-
-https://github.com/emartinez1320/Professional-Portfolio-for-UTP/issues/1#issue-1332425140
